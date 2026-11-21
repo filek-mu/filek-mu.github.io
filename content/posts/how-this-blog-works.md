@@ -1,6 +1,6 @@
 ---
 title: 这个博客是怎么搭起来的
-description: 一个几百行的 Node.js 静态生成器、GitHub Pages，和一套人机协作的写作发布流程。
+description: 一个几百行的 Node.js 静态生成器、GitHub Pages，和从 Markdown 到发布的完整流程。
 date: 2026-11-22
 tags: [技术, Node.js]
 ---
@@ -50,7 +50,3 @@ tags: [标签]
 4. 生成 RSS、sitemap，并把 `public/` 里的静态资源复制到 `dist/`
 
 没有增量构建，也没有插件系统。文章数量上来以后如果变慢，再考虑缓存。
-
-## 人机协作
-
-日常维护由一个 AI 助手参与：它负责起草、整理、提交和部署，我负责决定写什么、改什么、发不发。所有改动都走 Git，历史可以回溯，不满意就回退。
