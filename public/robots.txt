@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://filek-mu.github.io/sitemap.xml
