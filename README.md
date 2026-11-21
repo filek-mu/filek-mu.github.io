@@ -10,9 +10,9 @@ filek 的个人博客：记录技术、想法与日常。
 
 ```bash
 npm install
-npm run build    # 生成 dist/
-npm run dev      # 构建后用 http://localhost:4321 预览（需先 build）
-npm run preview  # 同上，显式指定 dist/
+npm run dev      # 构建并在 http://localhost:4321 预览
+npm run build    # 只生成 dist/
+npm run preview  # 预览已有的 dist/
 ```
 
 ## 写文章
